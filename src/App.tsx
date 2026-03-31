@@ -122,6 +122,7 @@ export default function App() {
         </div>
       </header>
 
+      <main>
       {/* About Me */}
       <section id="sobre-mi" className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -291,6 +292,8 @@ export default function App() {
         </div>
       </section>
 
+      </main>
+
       {/* Contact */}
       <footer id="contacto" className="py-20 px-6 bg-brand-bg border-t border-gray-200">
         <div className="max-w-6xl mx-auto">
@@ -308,10 +311,10 @@ export default function App() {
                   <span className="font-bold text-lg">daniel.mendoza@email.com</span>
                 </a>
                 <div className="flex gap-4">
-                  <a href="#" className="p-4 bg-white rounded-2xl border border-gray-200 hover:border-brand-accent hover:text-brand-accent transition-all">
+                  <a href="#" aria-label="Perfil de LinkedIn" target="_blank" rel="noopener noreferrer" className="p-4 bg-white rounded-2xl border border-gray-200 hover:border-brand-accent hover:text-brand-accent transition-all">
                     <Linkedin size={24} />
                   </a>
-                  <a href="#" className="p-4 bg-white rounded-2xl border border-gray-200 hover:border-brand-accent hover:text-brand-accent transition-all">
+                  <a href="#" aria-label="Perfil de GitHub" target="_blank" rel="noopener noreferrer" className="p-4 bg-white rounded-2xl border border-gray-200 hover:border-brand-accent hover:text-brand-accent transition-all">
                     <Github size={24} />
                   </a>
                 </div>
